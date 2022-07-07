@@ -1,5 +1,11 @@
 const { a, b, c, d, e, f } = require('../../src/data-types/numbers')
 
+describe("test", () => {
+  it("test", ()=> {
+    expect(1).toEqual(1)
+  })
+})
+
 describe("Numbers:", () => {
   it("numOnePlusNumTwo is 24", () => {
     expect(a).toEqual(24)
