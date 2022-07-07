@@ -16,19 +16,19 @@ names.push('Fred')
 numbers.push(4)
 
 // Edit this code to add 'Rio' to the start of the cities array
-cities.unshift(undefined)
+cities.unshift('Rio')
 
 // Use an array method to remove the first item from colours
-colours
+colours.shift(0)
 
 // Use an array method to remove the last item from keys
-keys
+keys.pop()
 
 // Use an array method to remove 'Jordon' from the countries array
-countries.splice(NaN, NaN)
+countries.splice(1, 1)
 
 // use an array method to remove the last item from the fruits array and store the value in the pear variable
-const pear = fruits.undefined
+const pear = fruits.pop()
 
 // Do not edit this exported object
 module.exports = {
