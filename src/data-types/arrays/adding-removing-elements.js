@@ -10,10 +10,10 @@ const fruits = ['Apple', 'Orange', 'Pear']
 // TODO: write code to pass the tests
 
 // Edit this code to add 'Fred' to the names array
-names.push(undefined)
+names.push('Fred')
 
 // Edit this code to add 4 to the end of the numbers array
-numbers.push(NaN)
+numbers.push(4)
 
 // Edit this code to add 'Rio' to the start of the cities array
 cities.unshift(undefined)
