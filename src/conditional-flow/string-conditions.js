@@ -3,6 +3,11 @@ const STR_ONE = 'Hello'
 
 let answerOne
 
+if (STR_ONE === 'Hello' ){
+  answerOne = true
+} else {
+  answerOne = false
+}
 
 
 
@@ -10,7 +15,11 @@ let answerOne
 const STR_TWO = 'Goodbye'
 
 let answerTwo
-
+if (STR_TWO !== 'Hello'){
+    answerTwo = true
+} else {
+  answerTwo = false
+}
 
 
 
@@ -21,6 +30,11 @@ const STR_FOUR = 'Good'
 
 let answerThree
 
+if (STR_THREE.length > STR_FOUR.length){
+  answerThree = true
+} else {
+  answerThree = false
+}
 
 
 
