@@ -23,12 +23,12 @@ const name = book.name
 const isbn10 = book.isbn.isbn10
 
 book.category = 'Programming'
-book.Pages = 464
-book.isbn13 = isbn13
+// book.Pages = 464
+// book.isbn13 = isbn13
+// try this for above --^ book.isbn13 = '978-0132350884'
 delete book.dimensions
 delete book.isbn.asin
 console.log(book)
-
 
 // Do not edit this exported object
 module.exports = {

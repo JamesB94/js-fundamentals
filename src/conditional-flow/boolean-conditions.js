@@ -1,14 +1,16 @@
 // Initialise the didPass variable with a boolean value
-let didPass
+let didPass = false
 
 // Create a conditional statement that changes the answer variable to the string
 // "Well done, you passed!" if didPass is true, or "Sorry, try again!" if didPass
 // is false
-let answer
-
-
-
-
+if (didPass === true){
+  let answer = "Well done, you passed!"
+  console.log("Well done, you passed!")
+} else {
+  let answer = "Sorry, try again!"
+  console.log("Sorry, try again!")
+}
 // When you're done and the test passes, changing didPass to the opposite boolean
 // and run the test again to make sure it still passes
 
