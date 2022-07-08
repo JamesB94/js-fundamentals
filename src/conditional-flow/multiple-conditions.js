@@ -28,7 +28,6 @@ if (STR === "Hello" || STR === "Goodbye"){
     answerTwo = true
 } else {
     answerTwo = false
-    console.log(answerTwo)
 }
 
 // ---- //
