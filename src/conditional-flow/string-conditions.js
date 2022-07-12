@@ -43,10 +43,25 @@ if (STR_THREE.length > STR_FOUR.length){
 // even number
 const STR_FIVE = 'Alex'
 
+const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+
 let answerFour
 
+let vowelsSeen = 0
 
+for (let i = 0; i < STR_FIVE.length; i++) {
+    const currentCharacter = STR_FIVE[i]
 
+    for (let j = 0; j < vowels.length; j++) {
+        const currentVowel = vowels[j]
+
+        if (currentCharacter === currentVowel) {
+            vowelsSeen++
+        }
+    }
+}
+
+answerFour = vowelsSeen % 2 === 0
 
 // Use a combination of a loop and conditional statements to set answerFive
 // to false if STR_SIX has an odd number of vowels, or true if it has an
@@ -91,6 +106,16 @@ let answerSeven
 const MONTH = 'January'
 
 let answerEight
+
+if(MONTH === "December" || MONTH === "January" || MONTH === "February"){
+  answerEight = "Winter"
+} else if (MONTH === "March" || MONTH === "April" || MONTH === "May"){
+  answerEight = "Spring"
+} else if (MONTH === "June" || MONTH === "July" || MONTH === "August"){
+  answerEight = "Summer"
+} else if (MONTH === "September" || MONTH === "October" || MONTH === "November"){
+  answerEight = "Autumn"
+}
 
 
 
