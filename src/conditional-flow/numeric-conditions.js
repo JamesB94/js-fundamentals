@@ -43,7 +43,7 @@ const NUMBERS = [67, 2039, 17, 501, 98, 139, 21]
 
 //let answerFour = NUMBERS[0]
 
-const answerFour = Math.min(NUMBERS)
+answerFour = Math.min(...NUMBERS)
 
 // for(let i =0; i < NUMBERS.length; i++){
 //     if(NUMBERS[i] < answerFour ){
