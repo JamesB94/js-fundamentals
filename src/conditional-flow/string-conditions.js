@@ -73,6 +73,7 @@ let answerFive
 
 
 
+
 // Use conditional statements to set answerSix to the middle character of STR_SEVEN
 // if STR_SEVEN has an odd number of characters
 const STR_SEVEN = 'Kayla'

@@ -19,7 +19,9 @@ for(let i =0; i < nums.length; i++ ){
 }
 
 // Use a for loop to set word equal to all the letters in the letters array
-word = ''
+
+
+word = letters.join("")
 
 // Use a for loop to populate everySecondNum with every second number from the nums array
 const everySecondNum = []
